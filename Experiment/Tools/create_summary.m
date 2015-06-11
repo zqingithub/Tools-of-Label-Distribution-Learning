@@ -1,7 +1,7 @@
 function create_summary(decimal_place_mean,decimal_place_std)
 fprintf('begin to create the summary of experiment results:\n');
-%algorithm={'AA-BP','AA-KNN','BFGS-LLD','CPNN','IIS-LLD','MSVR','PT-Bayes','PT-SVM'};
-algorithm={'AA-BP','AA-KNN','BFGS-LLD','IIS-LLD','PT-Bayes','PT-SVM'};
+algorithm={'AA-BP','AA-KNN','BFGS-LLD','CPNN','IIS-LLD','MSVR','PT-Bayes','PT-SVM'};
+%algorithm={'AA-BP','AA-KNN','BFGS-LLD','IIS-LLD','PT-Bayes','PT-SVM'};
 isAscend=[true,true,true,true,false,true];
 summary=[];
 mean_store=[];
